@@ -1,5 +1,4 @@
 from math import sqrt
-from operator import le
 from tkinter import *
 
 buttoncolor='#F2AE30'
@@ -48,6 +47,11 @@ def calcular(operacao):
                 operacao = str(inicioconta-fimconta)
                 operacao = operacao.replace('.',',')
                 tela['text']=operacao
+        elif '√' in operacao:
+            conta = float(operacao[1:len(operacao)])
+            operacao = sqrt(conta)
+            operacao = str(operacao).replace('.',',')
+            tela['text']=operacao
     except:
         tela['text']='Syntax Error'
 
