@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Rato2\Documents\Projetos\Python\Nova Calculadora teste\calc"
+VIRTUAL_ENV="C:\Users\Rato2\Documents\Projetos\Teste\calc"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
