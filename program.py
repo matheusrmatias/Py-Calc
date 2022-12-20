@@ -89,6 +89,7 @@ def adicionar(evt):
 
 janela = Tk()
 
+janela.iconbitmap('Content/Imagens/calculadora.ico')
 janela.title('Calculadora')
 janela.geometry('260x400')
 janela.maxsize(260,400)
